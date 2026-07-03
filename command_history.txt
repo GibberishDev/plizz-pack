@@ -1,0 +1,44 @@
+/twich
+/help twich
+/twich help
+/twich channel
+/twich channel GibbDev
+/twitch start
+/streamotes force-reload
+/tick sprint 20d
+/kill @e[type=minecraft:wandering_trader]
+/tick sprint stop
+/twitch sound a
+/twitch sound GibbDev
+/twitch autostart on
+/twitch hud on
+/twitch language en
+/streamotes force-reload
+/twitch channel plizzzle
+/streamotes reload
+/twitch status
+/twitch start
+/twitch stop
+/twitch start
+/recipe give CheeseshireCat *
+/advancement grant CheeseshireCat everything
+/kubejs dump
+/kubejs dump events
+/kubejs reload server-scripts
+/recipe give CheeseshireCat *
+/kubejs reload server-scripts
+/reload
+/probejs
+/reload
+/kubejs reload startup-scripts
+/reload
+/playsound minecraft:ui.toast.out
+/playsound minecraft:ui.toast.in
+/playsound minecraft:ui.toast.in master
+/playsound minecraft:ui.toast.in player
+/playsound minecraft:ui.toast.in player CheeseshireCat ~ ~ ~ 2.0
+/playsound minecraft:ui.toast.challenge_complete player CheeseshireCat ~ ~ ~ 2.0
+/playsound minecraft:ui.toast.out player CheeseshireCat ~ ~ ~ 2.0
+/playsound minecraft:ui.loom.select_pattern player CheeseshireCat ~ ~ ~ 2.0
+/playsound minecraft:ui.cartography_table.take_result player CheeseshireCat ~ ~ ~ 2.0
+/reload
