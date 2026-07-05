@@ -34,7 +34,7 @@
 		compact_tooltips = true
 		# Which items should have a 3D model rendered in the tooltip.  If set to "equipment", the model will only be rendered for armor, tools, and items with durability.
 		#Allowed Values: NONE, EQUIPMENT, ALL
-		render_item_model = "EQUIPMENT"
+		render_item_model = "ALL"
 		# The speed at which 3D models in tooltips will rotate.  Lower values rotate faster, set to 0 to disable rotation.
 		# Default: 12.0
 		# Range: 0.0 ~ 50.0
@@ -44,7 +44,7 @@
 		# (EXPERIMENTAL) The maximum width of tooltips.  Set to 0 for no limit.
 		# Default: 0
 		# Range: > 0
-		max_tooltip_width = 0
+		max_tooltip_width = 270
 		# (EXPERIMENTAL) The maximum height of tooltips.  Set to 0 for no limit.
 		# Default: 0
 		# Range: > 0

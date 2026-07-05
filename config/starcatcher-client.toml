@@ -6,7 +6,7 @@ remove_notif_on_hover = true
 #Allowed Values: METRIC, IMPERIAL, CHEESEBURGER, FOOTBALL, DEVELOPER_HEIGHT, BANANA, DUCK, SPACE_WHALE, SCIENTIFIC
 units = "METRIC"
 #Allowed Values: ALPHABETICAL_UP, ALPHABETICAL_DOWN, MOD_UP, MOD_DOWN, RARITY_UP, RARITY_DOWN, CAUGHT_UP, CAUGHT_DOWN
-sort = "ALPHABETICAL_DOWN"
+sort = "MOD_UP"
 enable_villager_sound = true
 enable_hit_sound = true
 enable_miss_sound = true

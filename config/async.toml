@@ -12,4 +12,4 @@
 	#Enables async entity spawning. WARNING: incompatible with Carpet's lagFreeSpawning.
 	enableAsyncSpawn = true
 	#Experimental! Enables async random ticks.
-	enableAsyncRandomTicks = false
+	enableAsyncRandomTicks = true

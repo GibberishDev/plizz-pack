@@ -1,24 +1,24 @@
 {
 	"typingSoundEffect": {
-		"shouldPlay": false,
-		"pitch": 1.6,
+		"shouldPlay": true,
+		"pitch": 1.0,
 		"volume": 0.4,
 		"id": "typing",
-		"soundEvent": "minecraft:block.note_block.hat"
+		"soundEvent": "minecraft:block.stone.hit"
 	},
 	"messageSoundEffect": {
 		"shouldPlay": true,
-		"pitch": 2.0,
-		"volume": 0.8,
+		"pitch": 1.0,
+		"volume": 2.0,
 		"id": "message",
-		"soundEvent": "sounds:ui.inventory.scroll"
+		"soundEvent": "minecraft:ui.toast.in"
 	},
 	"mentionSoundEffect": {
 		"shouldPlay": true,
-		"pitch": 1.8,
-		"volume": 0.9,
+		"pitch": 1.0,
+		"volume": 0.6,
 		"id": "mention",
-		"soundEvent": "sounds:ui.chat.ping"
+		"soundEvent": "minecraft:block.amethyst_block.hit"
 	},
 	"mentionKeywords": [
 		"@CheeseshireCat"

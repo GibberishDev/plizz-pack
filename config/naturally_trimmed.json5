@@ -65,6 +65,6 @@
 		// Chance of an item from a villager trade having a trim applied
 		trim_chance: 50,
 		// The minimum villager trading level an item needs to be in, to be considered of being trimmed
-		min_level: 3
+		min_level: 2
 	}
 }

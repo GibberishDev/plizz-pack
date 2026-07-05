@@ -22,11 +22,11 @@
 		// Controls how long the end transition should last for. 20 ticks is equal to 1 second.
 		// range: 0 - 2147483647
 		// default: 8
-		start_transition_ticks: 8,
+		start_transition_ticks: 10,
 		// Controls how long the start transition should last for. 20 ticks is equal to 1 second.
 		// range: 0 - 2147483647
 		// default: 8
-		end_transition_ticks: 8,
+		end_transition_ticks: 10,
 		// Inverts the start transition's curve.
 		// default: false
 		invert_start_transition: false,
@@ -44,7 +44,7 @@
 		hide_crosshair: true,
 		// Divides the amount of view bobbing with the zoom divisor while zooming.
 		// default: true
-		reduce_view_bobbing: true,
+		reduce_view_bobbing: false,
 		// Zooms the hand when zooming.
 		// default: true
 		zoom_hands: true,
@@ -82,7 +82,7 @@
 		zoom_mode: "HOLD",
 		// Adds the spyglass's sounds effects on alternating zoom.
 		// default: false
-		spyglass_sounds: false,
+		spyglass_sounds: true,
 		// Adds zoom manipulation keys along with the zoom key. A game restart will be required in order to apply the changes.
 		// default: true
 		extra_key_binds: true,
@@ -92,7 +92,7 @@
 		// "BOTH": Zooming will act as a complete replacement of the spyglass zoom, requiring one to work and replacing its zoom as well.
 		// options: OFF, REQUIRE_ITEM, REPLACE_ZOOM, BOTH
 		// default: OFF
-		spyglass_mode: "OFF"
+		spyglass_mode: "BOTH"
 	},
 	// Options affecting the Zoom Scrolling feature.
 	zoom_scrolling: {
@@ -104,7 +104,7 @@
 		reset_zoom_with_mouse: true,
 		// Adds sound effects on zoom scrolling.
 		// default: false
-		scroll_sounds: false,
+		scroll_sounds: true,
 		// If enabled, the current scroll step is forgotten once zooming is finished.
 		// default: true
 		forget_scroll_step: true,
@@ -116,19 +116,19 @@
 		// "SPRING": The zoom will bouncily transition between each increment. Avoid using it too often!
 		// options: INSTANT, LINEAR, SMOOTH, SINE, BALANCED, SPRING
 		// default: SMOOTH
-		transition: "SMOOTH",
+		transition: "SINE",
 		// Controls how long should the transition last for. 20 ticks is equal to 1 second.
 		// range: 0 - 2147483647
 		// default: 8
-		transition_ticks: 8,
+		transition_ticks: 10,
 		// Determines the number to be used on the exponential curve. If unsure, keep this value at 2.
 		// range: 2 - 2147483647
 		// default: 2
-		scroll_base: 2,
+		scroll_base: 10,
 		// Determines the resolution of zoom scrolling. This will effectively multiply the amount of scroll steps.
 		// range: 1 - 2147483647
 		// default: 5
-		scroll_resolution: 5,
+		scroll_resolution: 10,
 		// The default scroll step to use on zooming in.
 		// range: 0 - 2147483647
 		// default: 10
@@ -136,7 +136,7 @@
 		// The maximum amount of scroll steps that the zoom may reach.
 		// range: 0 - 2147483647
 		// default: 30
-		scroll_step_limit: 30
+		scroll_step_limit: 20
 	},
 	// Technical options that don't fit elsewhere.
 	tweaks: {

@@ -1,9 +1,9 @@
 {
   "enabled": true,
-  "appearAnimation": "FADE",
+  "appearAnimation": "SCALE",
   "idleAnimation": "SWING",
   "appearDelayMs": 250,
-  "itemSizePercent": 100,
+  "itemSizePercent": 80,
   "showItemInfo": true,
   "infoDelaySeconds": 0,
   "favoritesOverlap": "HIDE"

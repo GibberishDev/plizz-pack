@@ -1,49 +1,106 @@
-##[general]
-
-B:early_fade_out_elements = 'true';
-B:allow_universal_layouts = 'false';
-B:fade_out_loading_screen = 'true';
-B:wait_for_textures_in_loading = 'true';
-
-
-##[early_loading]
-
-I:early_loading_top_right_watermark_position_offset_y = '0';
-I:early_loading_bottom_left_watermark_position_offset_x = '0';
-I:early_loading_bottom_left_watermark_position_offset_y = '0';
-B:early_loading_hide_logger = 'false';
-I:early_loading_bar_width = '400';
-I:early_loading_bar_position_offset_y = '50';
-I:early_loading_top_right_watermark_height = '100';
-S:early_loading_bottom_right_watermark_texture_path = '/config/fancymenu/assets/some_image.png';
-I:early_loading_top_right_watermark_position_offset_x = '0';
-S:early_loading_top_left_watermark_texture_path = '/config/fancymenu/assets/some_image.png';
-I:early_loading_bottom_right_watermark_height = '100';
-I:early_loading_bar_position_offset_x = '0';
-I:early_loading_logo_height = '120';
-I:early_loading_top_right_watermark_width = '100';
-I:early_loading_bottom_right_watermark_position_offset_y = '0';
-I:early_loading_window_height = '-1';
-S:early_loading_bar_progress_texture_path = '/config/fancymenu/assets/some_bar_progress_image.png';
-I:early_loading_bottom_right_watermark_position_offset_x = '0';
-S:early_loading_background_texture_path = '/config/fancymenu/assets/some_image.png';
-B:early_loading_background_preserve_aspect_ratio = 'true';
-I:early_loading_top_left_watermark_width = '100';
-B:early_loading_hide_logo = 'false';
-S:early_loading_bar_background_texture_path = '/config/fancymenu/assets/some_bar_background_image.png';
-S:early_loading_logo_texture_path = '/config/fancymenu/assets/some_image.png';
-S:early_loading_bottom_left_watermark_texture_path = '/config/fancymenu/assets/some_image.png';
-I:early_loading_top_left_watermark_position_offset_y = '0';
-I:early_loading_top_left_watermark_position_offset_x = '0';
-I:early_loading_logo_width = '480';
-S:early_loading_top_right_watermark_texture_path = '/config/fancymenu/assets/some_image.png';
-I:early_loading_bottom_left_watermark_width = '100';
-I:early_loading_bottom_right_watermark_width = '100';
-I:early_loading_bottom_left_watermark_height = '100';
-I:early_loading_bar_height = '40';
-S:early_loading_window_title = 'Minecraft';
-I:early_loading_top_left_watermark_height = '100';
-I:early_loading_window_width = '-1';
-I:early_loading_logo_position_offset_y = '-50';
-B:early_loading_hide_bar = 'false';
-I:early_loading_logo_position_offset_x = '0';
+version:3955
+ao:true
+biomeBlendRadius:2
+enableVsync:true
+entityDistanceScaling:1.0
+entityShadows:true
+forceUnicodeFont:false
+japaneseGlyphVariants:false
+fov:1.0
+fovEffectScale:1.0
+darknessEffectScale:1.0
+glintSpeed:0.5
+glintStrength:0.75
+prioritizeChunkUpdates:0
+fullscreen:true
+gamma:0.5
+graphicsMode:1
+guiScale:3
+maxFps:160
+mipmapLevels:2
+narrator:0
+particles:1
+reducedDebugInfo:false
+renderClouds:"true"
+renderDistance:10
+simulationDistance:8
+screenEffectScale:1.0
+soundDevice:""
+autoJump:false
+operatorItemsTab:false
+autoSuggestions:true
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+discrete_mouse_scroll:false
+invertYMouse:false
+realmsNotifications:true
+showSubtitles:false
+directionalAudio:false
+touchscreen:false
+bobView:true
+toggleCrouch:false
+toggleSprint:false
+darkMojangStudiosBackground:true
+hideLightningFlashes:false
+hideSplashTexts:false
+mouseSensitivity:0.5
+damageTiltStrength:1.0
+highContrast:false
+narratorHotkey:true
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/FreshAnimations_v1.10.4.zip","file/FA+All_Extensions-v1.8.1.zip","file/Fancy Crops v1.3.zip","file/LowOnFire v26.2§8.zip","file/Better-Leaves-9.5.zip"]
+incompatibleResourcePacks:[]
+lastServer:
+lang:en_us
+chatVisibility:0
+chatOpacity:1.0
+chatLineSpacing:0.0
+textBackgroundOpacity:0.5
+backgroundForChatOnly:true
+hideServerAddress:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
+overrideWidth:0
+overrideHeight:0
+chatHeightFocused:1.0
+chatDelay:0.0
+chatHeightUnfocused:0.4375
+chatScale:1.0
+chatWidth:1.0
+notificationDisplayTime:1.0
+useNativeTransport:true
+mainHand:"right"
+attackIndicator:1
+tutorialStep:none
+mouseWheelSensitivity:1.0
+rawMouseInput:true
+glDebugVerbosity:1
+skipMultiplayerWarning:false
+hideMatchedNames:true
+joinedFirstServer:false
+hideBundleTutorial:false
+syncChunkWrites:false
+showAutosaveIndicator:true
+allowServerListing:true
+onlyShowSecureChat:false
+panoramaScrollSpeed:1.0
+telemetryOptInExtra:false
+onboardAccessibility:false
+menuBackgroundBlurriness:5
+soundCategory_master:1.0
+soundCategory_music:0.0
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:1.0
+soundCategory_voice:1.0
+modelPart_cape:true
+modelPart_jacket:true
+modelPart_left_sleeve:true
+modelPart_right_sleeve:true
+modelPart_left_pants_leg:true
+modelPart_right_pants_leg:true
+modelPart_hat:true
