@@ -1,0 +1,72 @@
+ItemEvents.dropped(event=>{
+	let player = event.player
+	let item = event.item
+	if (item.id == "kubejs:diamond_gun") {
+		item.resetComponents()
+	}
+})
+ItemEvents.firstLeftClicked(event=>{
+	let player = event.player
+	let item = event.item
+	let hand = event.hand
+	if (item.id=="kubejs:diamond_gun" && item.getCustomData()["custom:gun_jammed"]==true && player.isCrouching()) {
+		item.shrink(1)
+		event.level.runCommandSilent("playsound kubejs:item.diamond_gun.fart player @s ~ ~ ~ 1.0")
+		event.level.runCommandSilent("playsound kubejs:item.diamond_gun.explode player @s ~ ~ ~ 0.25")
+		event.level.runCommandSilent("particle minecraft:explosion_emitter ~ ~ ~")
+		event.level.runCommandSilent("particle minecraft:explosion_emitter ~ ~ ~")
+		event.level.runCommandSilent("tp "+player.getName().getString()+" ~ ~0.5 ~")
+		player.give(Items.DIAMOND)
+		player.give(Items.DIAMOND)
+		player.give(Items.REDSTONE)
+		player.give(Items.IRON_INGOT)
+		player.give(Items.IRON_INGOT)
+		player.give(Items.GUNPOWDER)
+	}
+	if (item.id == "kubejs:diamond_gun") {
+		event.level.runCommandSilent("playsound kubejs:item.diamond_gun.click player @s ~ ~ ~ 1.0")
+		item.setLore([
+			Text.red("JAMMED! [Crouch] and [Left Click] to fix").italic(false).bold(true)
+		])
+		event.level.runCommandSilent('title @s actionbar {"text":"JAMMED! Crouch and Click to fix!","color":"red"}')
+		item.setCustomData({"custom:gun_jammed":true})
+	}
+})
+
+ItemEvents.firstRightClicked(event=>{
+	let player = event.player
+	let item = event.item
+	let hand = event.hand
+	if (item.id == "kubejs:diamond_gun") {
+		if (item.components.get("minecraft:custom_model_data")) {
+			if (item.components.get("minecraft:custom_model_data").value() == 100000){
+				item.setCustomModelData(0)
+			} else {
+				item.setCustomModelData(100000)
+			}
+			// if (player.getItemInHand(hand) == player.getMainHandItem() && player.getOffHandItem().id == "kubejs:diamond_gun") {
+			// 	player.getOffHandItem().resetComponents()
+			// }
+		} else {
+			item.setCustomModelData(100000)
+			// if (player.getItemInHand(hand) == player.getMainHandItem() && player.getOffHandItem().id == "kubejs:diamond_gun") {
+			// 	player.getOffHandItem().setCustomModelData(100000)
+			// }
+		}
+	}
+})
+
+ServerEvents.recipes(event => {
+	event.shaped(
+		Item.of("kubejs:diamond_gun",1),
+		["DDG"," RI","  I"],
+		{
+			"D":"minecraft:diamond",
+			"R":"minecraft:redstone",
+			"I":"minecraft:iron_ingot",
+			"G":"minecraft:gunpowder"
+		}
+	)
+	.category('equipment')
+	.id("kubejs:diamond_gun")
+})

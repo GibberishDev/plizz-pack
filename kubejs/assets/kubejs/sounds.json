@@ -1,0 +1,29 @@
+{
+	"item.diamond_gun.click": {
+		"sounds": [
+			{
+				"name":"kubejs:diamond_gun_click",
+				"stream":false
+			}
+		],
+		"category":"player"
+	},
+	"item.diamond_gun.fart": {
+		"sounds": [
+			{
+				"name":"kubejs:diamond_gun_fart",
+				"stream":false
+			}
+		],
+		"category":"player"
+	},
+	"item.diamond_gun.explode": {
+		"sounds": [
+			{
+				"name":"kubejs:diamond_gun_explode",
+				"stream":false
+			}
+		],
+		"category":"player"
+	}
+}

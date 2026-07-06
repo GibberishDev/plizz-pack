@@ -1,5 +1,17 @@
 StartupEvents.registry('item', event => {
-// recipes
+	event.create('diamond_gun')
+	.maxStackSize(1).rarity("EPIC").displayName("Diamond Gun")
+	.parentModel("kubejs:item/diamond_gun")
+	.tooltip(Text.gray("Ammo: [10/10]"))
+
+	event.create('glorp')
+	.maxStackSize(1).rarity("EPIC").displayName("Glorp")
+	.parentModel("kubejs:item/glorp")
+	event.create('glorp_with_gun')
+	.maxStackSize(1).rarity("EPIC").displayName("Glorp")
+	.parentModel("kubejs:item/glorp_with_gun")
+
+// #region recipes
 	event.create('wine_recipe_aegis')
 	.maxStackSize(1).textures({layer0: 'minecraft:item/map',layer1: 'minecraft:item/filled_map_markings'})
 	.color((itemstack, tintIndex) => tintIndex == 1 ? Color.WHITE : -1)
@@ -223,8 +235,8 @@ StartupEvents.registry('item', event => {
 	.tooltip("\u00A77 - Jungle White Grape Juice 17%")
 	.tooltip("\u00A77 - Arrow")
 	.displayName("Villagers Fright recipe")
-	
-// Scrolls
+// #endregion
+// #region Scrolls
 	event.create('wine_recipe_scroll_aegis')
 	.maxStackSize(1).texture("kubejs:item/scroll").use((level, player,hand)=>true).displayName('Wine Recipe Scroll')
 	.tooltip("\u00A78Use to discover \u00A77[\u00A76Aegis Wine\u00A77] \u00A78recipe")
@@ -328,5 +340,5 @@ StartupEvents.registry('item', event => {
 	event.create('wine_recipe_scroll_fright')
 	.maxStackSize(1).texture("kubejs:item/scroll").use((level, player,hand)=>true).displayName('Wine Recipe Scroll')
 	.tooltip("\u00A78Use to discover \u00A77[\u00A76Villagers Fright\u00A77] \u00A78recipe")
-
+// #endregion
 })
