@@ -25,5 +25,25 @@
 			}
 		],
 		"category":"player"
+	},
+	"item.glorp.gunshot": {
+		"sounds": [
+			{
+				"name":"kubejs:gunshot",
+				"stream":false
+			}
+		],
+		"category":"player"
+	},
+	"item.glorp.voice": {
+		"sounds": [
+			{"name":"kubejs:glorp_0","stream":false},
+			{"name":"kubejs:glorp_1","stream":false},
+			{"name":"kubejs:glorp_2","stream":false},
+			{"name":"kubejs:glorp_3","stream":false},
+			{"name":"kubejs:glorp_4","stream":false},
+			{"name":"kubejs:glorp_5","stream":false}
+		],
+		"category":"player"
 	}
 }

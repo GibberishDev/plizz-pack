@@ -20,7 +20,6 @@
   "rewards": {
     "recipes": [
       "starcatcher:tackle_box_white",
-      "starcatcher:tackle_box_red",
       "starcatcher:tackle_box_lime",
       "starcatcher:tackle_box_orange",
       "starcatcher:tackle_box_red",
@@ -33,7 +32,7 @@
       "starcatcher:tackle_box_magenta",
       "starcatcher:tackle_box_purple",
       "starcatcher:tackle_box_blue",
-      "starcatcher:tackle_box_light_gray",
+      "starcatcher:tackle_box_dark_gray",
       "starcatcher:tackle_box_cyan",
       "starcatcher:tackle_box_green"
     ]

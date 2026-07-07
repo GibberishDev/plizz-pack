@@ -1,3 +1,5 @@
 StartupEvents.registry("sound_event",event=>{event.create("item.diamond_gun.click")})
 StartupEvents.registry("sound_event",event=>{event.create("item.diamond_gun.fart")})
 StartupEvents.registry("sound_event",event=>{event.create("item.diamond_gun.explode")})
+StartupEvents.registry("sound_event",event=>{event.create("item.glorp.gunshot")})
+StartupEvents.registry("sound_event",event=>{event.create("item.glorp.voice")})

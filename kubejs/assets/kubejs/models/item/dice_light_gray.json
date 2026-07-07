@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "kubejs:item/dice_white",
+	"textures": {
+		"0": "kubejs:item/dice_light_gray",
+		"particle": "kubejs:item/dice_light_gray"
+	}
+}

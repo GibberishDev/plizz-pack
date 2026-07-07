@@ -1,0 +1,18 @@
+{
+  "general": {
+    "whitelist": [],
+    "blacklist": [
+      "minecraft:wither",
+      "minecraft:ender_dragon"
+    ],
+    "left.visible": true,
+    "left.xOffset": 0,
+    "left.yOffset": 0,
+    "left.scale": 30,
+    "right.visible": true,
+    "right.xOffset": 0,
+    "right.yOffset": 0,
+    "right.scale": 30,
+    "sendWarning": true
+  }
+}
