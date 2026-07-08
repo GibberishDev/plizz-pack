@@ -12,7 +12,7 @@ function rollDice(player, die) {
 		name: player.username,
 		color: Color[die.toUpperCase() + "_DYE"].toHexString()
 	}
-	player.runCommandSilent("title @s times 0t 1s 0t")
+	event.server.runCommandSilent("execute as "+player.getName().getString()+" run title @s times 0t 1s 0t")
 }
 
 ServerEvents.tick(event => {

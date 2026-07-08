@@ -11,11 +11,11 @@ ItemEvents.firstLeftClicked(event=>{
 	let hand = event.hand
 	if (item.id=="kubejs:diamond_gun" && item.getCustomData()["custom:gun_jammed"]==true && player.isCrouching()) {
 		item.shrink(1)
-		event.level.runCommandSilent("playsound kubejs:item.diamond_gun.fart player @s ~ ~ ~ 1.0")
-		event.level.runCommandSilent("playsound kubejs:item.diamond_gun.explode player @s ~ ~ ~ 0.25")
-		event.level.runCommandSilent("particle minecraft:explosion_emitter ~ ~ ~")
-		event.level.runCommandSilent("particle minecraft:explosion_emitter ~ ~ ~")
-		event.level.runCommandSilent("tp "+player.getName().getString()+" ~ ~0.5 ~")
+		event.server.runCommandSilent("playsound kubejs:item.diamond_gun.fart player @s "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+" 1.0")
+		event.server.runCommandSilent("playsound kubejs:item.diamond_gun.explode player @s "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+" 0.25")
+		event.server.runCommandSilent("particle minecraft:explosion_emitter "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z)
+		event.server.runCommandSilent("particle minecraft:explosion_emitter "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z)
+		event.server.runCommandSilent("tp "+player.getName().getString()+" ~ ~0.5 ~")
 		player.give(Items.DIAMOND)
 		player.give(Items.DIAMOND)
 		player.give(Items.REDSTONE)
@@ -24,11 +24,11 @@ ItemEvents.firstLeftClicked(event=>{
 		player.give(Items.GUNPOWDER)
 	}
 	if (item.id == "kubejs:diamond_gun") {
-		event.level.runCommandSilent("playsound kubejs:item.diamond_gun.click player @s ~ ~ ~ 1.0")
+		event.server.runCommandSilent("playsound kubejs:item.diamond_gun.click player @s "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+" 1.0")
 		item.setLore([
 			Text.red("JAMMED! [Crouch] and [Left Click] to fix").italic(false).bold(true)
 		])
-		event.level.runCommandSilent('title @s actionbar {"text":"JAMMED! Crouch and Click to fix!","color":"red"}')
+		event.server.runCommandSilent('title '+player.getName().getString()+' actionbar {"text":"JAMMED! Crouch and Click to fix!","color":"red"}')
 		item.setCustomData({"custom:gun_jammed":true})
 	}
 })
