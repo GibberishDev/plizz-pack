@@ -193,7 +193,7 @@ let glorpGunPhrases = [
 ItemEvents.firstRightClicked(event=>{
 	if (event.item.id != "kubejs:glorp" && event.item.id != "kubejs:glorp_with_gun" || !canTalk) return
 	glorpTalk(event.player, event.item.id == "kubejs:glorp_with_gun")
-	event.server.runCommandSilent("playsound kubejs:item.glorp.voice player @s "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+ " 1.0")
+	event.server.runCommandSilent("playsound kubejs:item.glorp.voice player @a[distance=..5] "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+ " 1.0")
 
 })
 ItemEvents.dropped(event=>{
@@ -213,7 +213,7 @@ ItemEvents.dropped(event=>{
 		])
 		setTimeout(()=>{
 			event.server.runCommandSilent("damage " +event.player.uuid+ " 0.01")
-			event.server.runCommandSilent("playsound kubejs:item.glorp.gunshot player @s "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+ " 0.5")
+			event.server.runCommandSilent("playsound kubejs:item.glorp.gunshot player @a[distance=..20] "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+ " 0.5")
 			event.player.tell([
 				{"text":"<Glorp> BLAM! I shot you!","color":"#7bff00"}
 			])

@@ -22,13 +22,13 @@ ServerEvents.tick(event => {
 		let diceText = DICE_TEXT[Math.floor(Math.random()*6.0)]
 		if ((obj.ticksLeft > 80) || (obj.ticksLeft > 40 && obj.ticksLeft%2 ==0) ||(obj.ticksLeft%4 ==0)) {
 			event.server.runCommandSilent('title '+ obj.name +' title {"text":"'+ diceText +'","color":"'+ obj.color +'"}')
-			event.server.runCommandSilent('execute at '+ obj.uuid +' run playsound minecraft:block.note_block.hat player @p[distance=..20] ~ ~ ~ 0.2')
+			event.server.runCommandSilent('execute at '+ obj.uuid +' run playsound minecraft:block.note_block.hat player @a[distance=..20] ~ ~ ~ 0.2')
 		}
 		if (playerDice[plr].ticksLeft <= 0) {
 			delete playerDice[plr]
-			event.server.runCommandSilent('execute at '+ obj.uuid +' run playsound minecraft:block.note_block.bell player @p[distance=..20] ~ ~ ~ 0.2')
+			event.server.runCommandSilent('execute at '+ obj.uuid +' run playsound minecraft:block.note_block.bell player @a[distance=..20] ~ ~ ~ 0.2')
 			event.server.runCommandSilent('title '+ obj.uuid +' title {"text":"'+ diceText +'"}')
-			event.server.runCommandSilent('execute at '+ obj.uuid +' run tellraw @p[distance=..20] [{"text":"'+ obj.name +' rolled a "},{"text":"'+diceText+'","color":"'+obj.color+'"}]')
+			event.server.runCommandSilent('execute at '+ obj.uuid +' run tellraw @a[distance=..20] [{"text":"'+ obj.name +' rolled a "},{"text":"'+diceText+'","color":"'+obj.color+'"}]')
 			event.server.runCommandSilent('title '+ obj.uuid +' reset')
 		}
 	}
