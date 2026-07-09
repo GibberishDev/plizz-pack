@@ -34,9 +34,7 @@ ItemEvents.firstLeftClicked(event=>{
 })
 
 ItemEvents.firstRightClicked(event=>{
-	let player = event.player
 	let item = event.item
-	let hand = event.hand
 	if (item.id == "kubejs:diamond_gun") {
 		if (item.components.get("minecraft:custom_model_data")) {
 			if (item.components.get("minecraft:custom_model_data").value() == 100000){
@@ -44,14 +42,8 @@ ItemEvents.firstRightClicked(event=>{
 			} else {
 				item.setCustomModelData(100000)
 			}
-			// if (player.getItemInHand(hand) == player.getMainHandItem() && player.getOffHandItem().id == "kubejs:diamond_gun") {
-			// 	player.getOffHandItem().resetComponents()
-			// }
 		} else {
 			item.setCustomModelData(100000)
-			// if (player.getItemInHand(hand) == player.getMainHandItem() && player.getOffHandItem().id == "kubejs:diamond_gun") {
-			// 	player.getOffHandItem().setCustomModelData(100000)
-			// }
 		}
 	}
 })
