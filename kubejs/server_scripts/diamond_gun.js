@@ -15,7 +15,7 @@ ItemEvents.firstLeftClicked(event=>{
 		event.server.runCommandSilent("execute at "+event.player.uuid+" run playsound kubejs:item.diamond_gun.explode player @a[distance=..20] " + event.player.position().x + " " + event.player.position().y + " " + event.player.position().z + " 0.25")
 		event.server.runCommandSilent("particle minecraft:explosion_emitter " + event.player.position().x + " " + event.player.position().y + " " + event.player.position().z)
 		event.server.runCommandSilent("particle minecraft:explosion_emitter " + event.player.position().x + " " + event.player.position().y + " " + event.player.position().z)
-		event.server.runCommandSilent("tp "+player.getName().getString()+" ~ ~0.5 ~")
+		event.server.runCommandSilent("execute at "+player.getName().getString()+" run tp "+player.getName().getString()+" ~ ~0.5 ~")
 		player.give(Items.DIAMOND)
 		player.give(Items.DIAMOND)
 		player.give(Items.REDSTONE)

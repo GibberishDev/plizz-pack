@@ -1,9 +1,7 @@
 {
-	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "instructions_01",
-		"particle": "instructions_01"
+		"0": "kubejs:item/ancient_manuscript_top_left",
+		"particle": "kubejs:item/ancient_manuscript_top_left"
 	},
 	"elements": [
 		{
@@ -37,14 +35,14 @@
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"rotation": [0, 180, 0],
-			"scale": [1.065, 1.065, 1.065]
+			"rotation": [-20, 180, 0],
+			"scale": [1.065, 1.165, 1.065]
 		},
 		"head": {
 			"translation": [0, 0, -6.5]
 		},
 		"fixed": {
-			"translation": [-0.25, -0.25, -0.1],
+			"translation": [-0.22, -0.28, -0.101],
 			"scale": [2.1, 2.1, 2.1]
 		}
 	}

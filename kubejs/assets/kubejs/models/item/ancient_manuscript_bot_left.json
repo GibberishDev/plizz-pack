@@ -1,0 +1,13 @@
+{
+	"parent": "kubejs:item/ancient_manuscript_top_left",
+	"textures": {
+		"0": "kubejs:item/ancient_manuscript_bot_left",
+		"particle": "kubejs:item/ancient_manuscript_bot_left"
+	},
+	"display": {
+		"fixed": {
+			"translation": [-0.2, -0.3, -0.1],
+			"scale": [2.1, 2.1, 2.1]
+		}
+	}
+}

@@ -4,8 +4,8 @@ StartupEvents.registry('item', event => {
 	.parentModel("kubejs:item/diamond_gun")
 	.tooltip(Text.gray("Ammo: [10/10]"))
 
-	event.create('glorp').maxStackSize(1).rarity("EPIC").displayName("Glorp")
-	event.create('glorp_with_gun').maxStackSize(1).rarity("EPIC").displayName("Glorp")
+	event.create('glorp').maxStackSize(1).rarity("EPIC").displayName("Glorp").fireResistant(true)
+	event.create('glorp_with_gun').maxStackSize(1).rarity("EPIC").displayName("Glorp").fireResistant(true)
 	
 	event.create('dice_black').maxStackSize(1).rarity("UNCOMMON").displayName("Black Dice").parentModel("kubejs:item/dice_white")
 	event.create('dice_blue').maxStackSize(1).rarity("UNCOMMON").displayName("Blue Dice").parentModel("kubejs:item/dice_blue")
@@ -23,6 +23,12 @@ StartupEvents.registry('item', event => {
 	event.create('dice_red').maxStackSize(1).rarity("UNCOMMON").displayName("Red Dice").parentModel("kubejs:item/dice_red")
 	event.create('dice_white').maxStackSize(1).rarity("UNCOMMON").displayName("White Dice").parentModel("kubejs:item/dice_white")
 	event.create('dice_yellow').maxStackSize(1).rarity("UNCOMMON").displayName("Yellow Dice").parentModel("kubejs:item/dice_yellow")
+
+	event.create('ancient_scroll').maxStackSize(1).rarity("EPIC").displayName("Ancient Scroll")
+	event.create('ancient_manuscript_top_left').maxStackSize(1).rarity("EPIC").displayName("Ancient manuscript")
+	event.create('ancient_manuscript_top_right').maxStackSize(1).rarity("EPIC").displayName("Ancient manuscript")
+	event.create('ancient_manuscript_bot_left').maxStackSize(1).rarity("EPIC").displayName("Ancient manuscript")
+	event.create('ancient_manuscript_bot_right').maxStackSize(1).rarity("EPIC").displayName("Ancient manuscript")
 
 // #region recipes
 	event.create('wine_recipe_aegis')
