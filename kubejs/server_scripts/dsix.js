@@ -1,11 +1,11 @@
 ItemEvents.firstRightClicked(event=>{
 	if (!event.item.id.includes("kubejs:dice")) return
-	rollDice(event.player, event.item.id.replace("kubejs:dice_",""))
+	rollDice(event.player, event.item.id.replace("kubejs:dice_",""), event)
 })
 var playerDice = {}
 console.log()
 const DICE_TEXT = "⚀⚁⚂⚃⚄⚅"
-function rollDice(player, die) {
+function rollDice(player, die, event) {
 	playerDice[player.uuid] = {
 		uuid: player.uuid,
 		ticksLeft: 120,
@@ -28,7 +28,7 @@ ServerEvents.tick(event => {
 			delete playerDice[plr]
 			event.server.runCommandSilent('execute at '+ obj.uuid +' run playsound minecraft:block.note_block.bell player @a[distance=..20] ~ ~ ~ 0.2')
 			event.server.runCommandSilent('title '+ obj.uuid +' title {"text":"'+ diceText +'"}')
-			event.server.runCommandSilent('execute at '+ obj.uuid +' run tellraw @a[distance=..20] [{"text":"'+ obj.name +' rolled a "},{"text":"'+diceText+'","color":"'+obj.color+'"}]')
+			event.server.runCommandSilent('execute at '+ obj.uuid +' run tellraw @a[distance=..20] [{"text":"'+ obj.name +' rolled a "},{"text":"'+diceText+'","color":"'+obj.color+'"},{"text":" ('+String(DICE_TEXT.search(diceText)+1)+')"}]')
 			event.server.runCommandSilent('title '+ obj.uuid +' reset')
 		}
 	}

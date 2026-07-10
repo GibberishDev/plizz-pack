@@ -9,7 +9,7 @@ BlockEvents.rightClicked(event => {
 		if (properties.face != "wall") return
 		if (checkAltar(block, world, server)) {
 			server.runCommandSilent('title @a title [{"text":"!!!","color":"#00ff00","obfuscated":true},{"text":"GLORP UPON YE!","color":"#00ff00","bold":true,"obfuscated":false},{"text":"!!!","color":"#00ff00","obfuscated":true}]')
-			server.runCommandSilent("playsound minecraft:block.beacon.power_select master @a")
+			server.runCommandSilent("execute at "+event.player.uuid+" run playsound minecraft:block.beacon.power_select master @a")
 			event.server.persistentData.glorp = true
 			server.runCommandSilent('summon item ' + block.pos.x + " " + block.pos.y + " " + block.pos.z + ' {"Item":{"id":"kubejs:glorp"},Glowing:1b}')
 			server.runCommandSilent("team add glorp")
@@ -193,7 +193,7 @@ let glorpGunPhrases = [
 ItemEvents.firstRightClicked(event=>{
 	if (event.item.id != "kubejs:glorp" && event.item.id != "kubejs:glorp_with_gun" || !canTalk) return
 	glorpTalk(event.player, event.item.id == "kubejs:glorp_with_gun")
-	event.server.runCommandSilent("playsound kubejs:item.glorp.voice player @a[distance=..5] "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+ " 1.0")
+	event.server.runCommandSilent("execute at "+event.player.uuid+" run playsound kubejs:item.glorp.voice player @a[distance=..5] " + event.player.position().x + " " + event.player.position().y + " " + event.player.position().z + " 1.0")
 
 })
 ItemEvents.dropped(event=>{
@@ -213,7 +213,7 @@ ItemEvents.dropped(event=>{
 		])
 		setTimeout(()=>{
 			event.server.runCommandSilent("damage " +event.player.uuid+ " 0.01")
-			event.server.runCommandSilent("playsound kubejs:item.glorp.gunshot player @a[distance=..20] "+event.player.pos.x + " "+event.player.pos.y + " "+event.player.pos.z+ " 0.5")
+			event.server.runCommandSilent("execute at "+event.player.uuid+" run playsound kubejs:item.glorp.gunshot player @a[distance=..20] " + event.player.position().x + " " + event.player.position().y + " " + event.player.position().z + " 0.5")
 			event.player.tell([
 				{"text":"<Glorp> BLAM! I shot you!","color":"#7bff00"}
 			])

@@ -29,7 +29,9 @@
       "id": "minecraft:desert_pyramid",
       "displayName": "Desert Pyramid",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "minecraft:end_city",
@@ -69,7 +71,9 @@
       "id": "minecraft:mineshaft",
       "displayName": "Mineshaft",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "minecraft:mineshaft_mesa",
@@ -107,7 +111,9 @@
       "id": "minecraft:pillager_outpost",
       "displayName": "Pillager Outpost",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "minecraft:ruined_portal",
@@ -119,7 +125,9 @@
       "id": "minecraft:ruined_portal_desert",
       "displayName": "Ruined Portal Desert",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "minecraft:ruined_portal_jungle",
@@ -169,7 +177,9 @@
       "id": "minecraft:stronghold",
       "displayName": "Stronghold",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "minecraft:swamp_hut",
@@ -187,13 +197,17 @@
       "id": "minecraft:trial_chambers",
       "displayName": "Trial Chambers",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "minecraft:village_desert",
       "displayName": "Village Desert",
       "isVanilla": true,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "minecraft:village_plains",
@@ -823,7 +837,9 @@
       "id": "adorabuild_structures:sand_castle_small_1",
       "displayName": "Sand Castle Small 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "adorabuild_structures:sand_castle_tiny_1",
@@ -835,37 +851,49 @@
       "id": "adorabuild_structures:sand_house_medium_1",
       "displayName": "Sand House Medium 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "adorabuild_structures:sand_house_medium_2",
       "displayName": "Sand House Medium 2",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "adorabuild_structures:sand_house_small_1",
       "displayName": "Sand House Small 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "adorabuild_structures:sand_house_small_2",
       "displayName": "Sand House Small 2",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "adorabuild_structures:sand_pyramid_1",
       "displayName": "Sand Pyramid 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "adorabuild_structures:sand_underground_castle_1",
       "displayName": "Sand Underground Castle 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "adorabuild_structures:spruce_house_large_1",
@@ -935,13 +963,17 @@
       "id": "betterarcheology:archeologist_camp_sand",
       "displayName": "Archeologist Camp Sand",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "betterarcheology:buried_ruins_sand",
       "displayName": "Buried Ruins Sand",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "betterarcheology:catacombs",
@@ -953,7 +985,9 @@
       "id": "betterarcheology:desert_obelisk",
       "displayName": "Desert Obelisk",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "betterarcheology:fossil_chicken",
@@ -1019,7 +1053,9 @@
       "id": "betterarcheology:ruins_sand",
       "displayName": "Ruins Sand",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "betterarcheology:stonehenge_grassy",
@@ -1181,7 +1217,9 @@
       "id": "i_wanna_travel:pillard_1",
       "displayName": "Pillard 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "i_wanna_travel:structure_10maison",
@@ -1235,19 +1273,25 @@
       "id": "i_wanna_travel:structure_15tourdesert",
       "displayName": "Structure 15tourdesert",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "i_wanna_travel:structure_18base",
       "displayName": "Structure 18base",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "i_wanna_travel:structure_19tourdesert",
       "displayName": "Structure 19tourdesert",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "i_wanna_travel:structure_1fontaine",
@@ -1277,13 +1321,17 @@
       "id": "i_wanna_travel:structure_26tour",
       "displayName": "Structure 26tour",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "i_wanna_travel:structure_2tour",
       "displayName": "Structure 2tour",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "i_wanna_travel:structure_35ilevillagept_1",
@@ -1309,13 +1357,17 @@
       "id": "i_wanna_travel:structure_4base",
       "displayName": "Structure 4base",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "i_wanna_travel:structure_5camp",
       "displayName": "Structure 5camp",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "medieval_buildings:fort",
@@ -1391,97 +1443,129 @@
       "id": "roadweaver:bridge_bridge_0",
       "displayName": "Bridge Bridge 0",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:bridge_bridge_1",
       "displayName": "Bridge Bridge 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_bench",
       "displayName": "Roadside Bench",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_campfire",
       "displayName": "Roadside Campfire",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_campsite_1",
       "displayName": "Roadside Campsite 1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_campsite_2",
       "displayName": "Roadside Campsite 2",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_campsite_3",
       "displayName": "Roadside Campsite 3",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_grave_easter_egg",
       "displayName": "Roadside Grave Easter Egg",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_grave_fogg05",
       "displayName": "Roadside Grave Fogg05",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_grave_magic_muggle",
       "displayName": "Roadside Grave Magic Muggle",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_grave_notch",
       "displayName": "Roadside Grave Notch",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_grave_technoblade",
       "displayName": "Roadside Grave Technoblade",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_maid_house",
       "displayName": "Roadside Maid House",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:roadside_sakura_coffee_house",
       "displayName": "Roadside Sakura Coffee House",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:spawn_cabin",
       "displayName": "Spawn Cabin",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:stone_bridge_shiqiao",
       "displayName": "Stone Bridge Shiqiao",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "roadweaver:wood_bridge_hongshu",
@@ -1529,7 +1613,9 @@
       "id": "supplementaries:road_sign",
       "displayName": "Road Sign",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "takesapillage:bastille",
@@ -1547,7 +1633,9 @@
       "id": "underground_rooms:alchemy_room",
       "displayName": "Alchemy Room",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:armory",
@@ -1559,7 +1647,9 @@
       "id": "underground_rooms:blacksmith_room1",
       "displayName": "Blacksmith Room1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:catacombs",
@@ -1571,25 +1661,33 @@
       "id": "underground_rooms:desert_crypt",
       "displayName": "Desert Crypt",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:dungeon",
       "displayName": "Dungeon",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:enchanting_room",
       "displayName": "Enchanting Room",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:end_room",
       "displayName": "End Room",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:hidden_temple",
@@ -1613,13 +1711,17 @@
       "id": "underground_rooms:library1",
       "displayName": "Library1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:mainroom1",
       "displayName": "Mainroom1",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:mining_storage_room",
@@ -1631,13 +1733,17 @@
       "id": "underground_rooms:throne_room",
       "displayName": "Throne Room",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:torture_chamber",
       "displayName": "Torture Chamber",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:treasure_room",
@@ -1649,13 +1755,17 @@
       "id": "underground_rooms:undead_main_room",
       "displayName": "Undead Main Room",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     },
     {
       "id": "underground_rooms:wine_cellar",
       "displayName": "Wine Cellar",
       "isVanilla": false,
-      "dimensions": []
+      "dimensions": [
+        "minecraft:overworld"
+      ]
     }
   ],
   "tags": [
