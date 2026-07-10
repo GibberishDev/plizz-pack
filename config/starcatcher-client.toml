@@ -17,7 +17,7 @@ enable_miss_sound = true
 	minigame_scale = 1.5
 	# Default: 0
 	# Range: -10000 ~ 10000
-	minigame_x_offset = 0
+	minigame_x_offset = 60
 	# Default: 0
 	# Range: -10000 ~ 10000
 	minigame_y_offset = 0
