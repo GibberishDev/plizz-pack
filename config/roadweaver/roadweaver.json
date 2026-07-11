@@ -2,7 +2,7 @@
   "structurePrediction": {
     "enabled": true,
     "structureAvoidanceEnabled": true,
-    "predictRadiusChunks": 1024,
+    "predictRadiusChunks": 256,
     "biomePrefilter": true,
     "structureWhitelist": [
       "#minecraft:village"
@@ -45,7 +45,7 @@
     "allowArtificial": true,
     "allowNatural": true,
     "placeWaypoints": false,
-    "spawnCabinEnabled": true,
+    "spawnCabinEnabled": false,
     "averagingRadius": 8,
     "roadWidth": 3,
     "roadSignsEnabled": true,
@@ -62,7 +62,7 @@
     "deckClearance": 2,
     "maxLengthBlocks": 100,
     "useBuoysInstead": false,
-    "useBuoysWhenSkipped": false,
+    "useBuoysWhenSkipped": true,
     "buoyIntervalBlocks": 32,
     "pierInterval": 6,
     "pierWidth": 1,
@@ -92,20 +92,20 @@
     "computeThreads": 0,
     "initialGenerationThreads": 6,
     "maxConcurrentGenerations": 3,
-    "threadDutyCycle": 50,
+    "threadDutyCycle": 30,
     "idleGenerationThreads": 1,
-    "idleThreadDutyCycle": 20
+    "idleThreadDutyCycle": 10
   },
   "roadsideStructure": {
-    "enabled": true,
+    "enabled": false,
     "maxStructuresPerRoad": 3,
     "smallStructureOffset": 8,
     "mediumStructureOffset": 12,
     "largeStructureOffset": 16
   },
   "client": {
-    "loadingTipsEnabled": true,
-    "loadingProgressEnabled": true
+    "loadingTipsEnabled": false,
+    "loadingProgressEnabled": false
   },
   "dimensionRoadSettings": {}
 }

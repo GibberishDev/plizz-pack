@@ -1,3 +1,4 @@
+enable_tooltips = true
 line_before = false
 line_after = false
 # Default: 7829367

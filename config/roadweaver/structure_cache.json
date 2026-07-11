@@ -1655,6 +1655,78 @@
       ]
     },
     {
+      "id": "incendium:abandoned_tower",
+      "displayName": "Abandoned Tower",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "incendium:forbidden_castle",
+      "displayName": "Forbidden Castle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "incendium:infernal_altar",
+      "displayName": "Infernal Altar",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "incendium:nether_reactor",
+      "displayName": "Nether Reactor",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "incendium:piglin_village",
+      "displayName": "Piglin Village",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "incendium:pipeline",
+      "displayName": "Pipeline",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "incendium:quartz_kitchen",
+      "displayName": "Quartz Kitchen",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "incendium:ruined_lab",
+      "displayName": "Ruined Lab",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "incendium:sanctum",
+      "displayName": "Sanctum",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
       "id": "medieval_buildings:fort",
       "displayName": "Fort",
       "isVanilla": false,

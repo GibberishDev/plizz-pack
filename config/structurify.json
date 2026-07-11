@@ -1,0 +1,14 @@
+{
+  "config_version": "2.0.28",
+  "config_datetime": "2026-07-11_15-25-04",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [],
+  "structures": [],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

@@ -1,0 +1,6 @@
+[general]
+	#How dark should it be? (Server Enforced)
+	#0.0 = Pitch Black, 1.0 = Vanilla
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	darkness_strength = 0.0

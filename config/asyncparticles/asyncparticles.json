@@ -2,7 +2,7 @@
   "version": 1,
   "particle": {
     "particleLimit": 16384,
-    "removeIfMissedTick": true,
+    "removeIfMissedTick": false,
     "parallelQueueRemoval": true,
     "parallelQueueEviction": true,
     "particleLightCache": true,

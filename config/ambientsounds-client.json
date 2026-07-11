@@ -89,12 +89,12 @@
     },
     "forest": {
       "overall": 1,
-      "bird-ambience": 1,
+      "bird-ambience": 0.24919094145298004,
       "owl": 1
     },
     "forest_roofed": {
       "overall": 1,
-      "bird-ambience-spooky": 1
+      "bird-ambience-spooky": 0.5074626803398132
     },
     "grass": {
       "overall": 1,
@@ -206,9 +206,9 @@
     "animal": {
       "animal": 1,
       "bird": {
-        "bird": 1,
-        "bird_day": 1,
-        "bird_night": 1
+        "bird": 0.5045592784881592,
+        "bird_day": 0.4954407215118408,
+        "bird_night": 0.4954407215118408
       },
       "cicadas": 1,
       "cricket": {
