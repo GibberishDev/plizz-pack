@@ -311,6 +311,7 @@
 	fire_pit = true
 	wicker_fence = true
 	brittlestone = true
+	brittlestone_bricks = true
 
 	[building.spider_head]
 		enabled = true

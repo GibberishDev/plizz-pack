@@ -1,7 +1,7 @@
 #Award guide when joining the world/server once per player
-give_guide = true
+give_guide = false
 #Award rod & guide the first time a player fishes with a vanilla fishing rod
-give_rod = true
+give_rod = false
 #Enables/disables the ability to bonemeal farmland for worms.
 enable_worms = true
 enable_minigame = true
@@ -69,4 +69,4 @@ hide_catches = false
 #Enable Starcatcher's fishing rod durability
 enable_rod_durability = false
 #Allows players to use a keybind to open the guide without having the item
-allow_guide_keybind = true
+allow_guide_keybind = false

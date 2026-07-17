@@ -8,11 +8,6 @@
       "#minecraft:village"
     ],
     "structureBlacklist": [],
-    "dimensionWhitelist": [
-      "minecraft:overworld",
-      "minecraft:the_nether",
-      "minecraft:the_end"
-    ],
     "villageRoadOffset": 60,
     "otherStructureRoadOffset": 15
   },
@@ -73,28 +68,17 @@
     "minLength": 5,
     "mergeGap": 8
   },
-  "highway": {
-    "enabled": false,
-    "autoPlanEnabled": true,
-    "gridBlocks": 2500,
-    "dynamicPlanEnabled": true,
-    "roadWidth": 7,
-    "slopeLimitEnabled": true,
-    "slopeRunBlocks": 5,
-    "slopeRiseBlocks": 1,
-    "aStarStep": 32,
-    "aStarMaxSteps": 20000,
-    "floatingWeight": 2.0,
-    "penetrationWeight": 4.0
-  },
   "performance": {
-    "generationThreads": 3,
-    "computeThreads": 0,
+    "sharedWorkerThreads": 4,
     "initialGenerationThreads": 6,
     "maxConcurrentGenerations": 3,
     "threadDutyCycle": 30,
-    "idleGenerationThreads": 1,
-    "idleThreadDutyCycle": 10
+    "idleGenerationEnabled": false,
+    "idleThreadDutyCycle": 10,
+    "openclCoarseSamplingEnabled": true,
+    "openclDevicePreference": "AUTO",
+    "openclMinSamples": 1024,
+    "openclValidateSamples": false
   },
   "roadsideStructure": {
     "enabled": false,
@@ -103,9 +87,25 @@
     "mediumStructureOffset": 12,
     "largeStructureOffset": 16
   },
+  "roadsideVillage": {
+    "enabled": false,
+    "maxVillagesPerRoad": 6,
+    "minRoadSegments": 32,
+    "windowSegments": 24,
+    "targetNodeCountMin": 6,
+    "targetNodeCountMax": 14,
+    "maxHeightDiff": 4,
+    "maxLocalSlope": 4,
+    "minCurveAngle": 0.0,
+    "maxCurveAngle": 70.0,
+    "roadBufferBlocks": 6,
+    "buildingGapInterval": 3,
+    "maxStepHeight": 3,
+    "maxDistanceFromCenter": 96,
+    "spawnChance": 0.3
+  },
   "client": {
     "loadingTipsEnabled": false,
     "loadingProgressEnabled": false
-  },
-  "dimensionRoadSettings": {}
+  }
 }

@@ -9,10 +9,7 @@ mushroomSporeBiomes = [
     "minecraft:mushroom_fields"
 ]
 pollenDensity = 50
-pollenBiomes = [
-    "minecraft:flower_forest",
-    "minecraft:sunflower_plains"
-]
+pollenBiomes = [  ]
 sculkDustDensity = 5
 sculkDustBiomes = [
     "minecraft:deep_dark"

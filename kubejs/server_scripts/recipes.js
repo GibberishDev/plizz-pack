@@ -2,13 +2,18 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		Item.of("minecraft:bundle",1),
 		["S","L"],
-		{
-			"S":"minecraft:string",
-			"L":"minecraft:leather"
-		}
-	)
-	.category('equipment')
-	.id("kubejs:bundle")
+		{"S":"minecraft:string","L":"minecraft:leather"}
+	).category('equipment').id("kubejs:bundle")
+
+	event.shapeless(
+		Item.of("farmersdelight:rope"),
+		["supplementaries:rope"]
+	).category("equipment").id("kubejs:compat_rope_farmers")
+
+	event.shapeless(
+		Item.of("supplementaries:rope"),
+		["farmersdelight:rope"]
+	).category("equipment").id("kubejs:compat_rope_supplementaries")
 })
 
 PlayerEvents.inventoryChanged(event=>{

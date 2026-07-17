@@ -1,0 +1,9 @@
+#Determines if mod is enabled
+#If "OFF" reverts the recipe book to vanilla behavior
+mod_enabled = true
+#Determines prefix for search string to let recipe book know you are looking for recipies that use that item
+#Default: "$"
+ingredient_prefix = "$"
+#Determines prefix for search string to let recipe book know you are looking for recipies that are added by certain mod
+#Default: "@"
+modid_prefix = "@"
