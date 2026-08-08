@@ -21,7 +21,8 @@
 		"soundEvent": "minecraft:block.amethyst_block.hit"
 	},
 	"mentionKeywords": [
-		"@CheeseshireCat"
+		"@CheeseshireCat",
+		"@GibberishDev"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,

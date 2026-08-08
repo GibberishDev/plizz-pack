@@ -26,4 +26,9 @@ usernamecache.json
 command_history.txt
 options.txt
 nova_structures
+ESM/*
+!ESM/soundsMuffled.dat
+defaultconfigs
+patchouli_data.json
 lightspeed-cache
+fieldguide_cache

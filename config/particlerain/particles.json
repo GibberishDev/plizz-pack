@@ -4,14 +4,18 @@
   "splatter": {},
   "smoke": {},
   "streak": {},
-  "mist": {},
+  "mist": {
+    "enabled": false
+  },
   "shrub": {
     "enabled": true
   },
   "snow_haze": {
     "enabled": true
   },
-  "mist_after_rain": {},
+  "mist_after_rain": {
+    "enabled": false
+  },
   "ripple": {},
   "rain_haze": {
     "enabled": true

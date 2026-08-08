@@ -130,7 +130,7 @@
 		# - DEPTH: simpler depth-buffer clip; can interact poorly with translucent
 		#   blocks (slime, glass, water) rendered after BE pass
 		#Allowed Values: OFF, STENCIL, DEPTH
-		mask_mode = "STENCIL"
+		mask_mode = "OFF"
 
 	[particles.turn_particle]
 		#An RGBA color
@@ -147,18 +147,18 @@
 	no_optifine_warn_screen = false
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
-	#Show some tooltip hints to guide players through the mod
-	tooltip_hints = true
-	#Show tooltips items that have been made placeable
-	placeable_tooltips = true
-	#unfunny
-	"I am very boring and I don't want any Easter Egg" = false
 	#Enable Quark style config button on main menu
 	configs_button = false
 	#Config button Y offset
 	# Default: 0
 	# Range: -10000 ~ 10000
 	configs_button_y_offset = 0
+	#Show some tooltip hints to guide players through the mod
+	tooltip_hints = true
+	#Show tooltips items that have been made placeable
+	placeable_tooltips = true
+	#unfunny
+	"I am very boring and I don't want any Easter Egg" = false
 
 [tweaks]
 	#Adds an overlay to projectile weapons in gui displaying currently selected ammo

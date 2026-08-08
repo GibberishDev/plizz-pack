@@ -1,6 +1,6 @@
 {
     "board": {
-        "updateFrequencySecs": 120,
+        "updateFrequencySecs": 45,
         "villageGenFrequency": 2,
         "canBreak": true
     },

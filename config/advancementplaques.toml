@@ -13,7 +13,7 @@
 		# Range: -256 ~ 256
 		horizontal_offset = 0
 		# Hide waila/hwyla/jade popups while plaques are showing.
-		hide_waila = false
+		hide_waila = true
 		# If plaques should show for task advancements (normal advancements).
 		tasks = true
 		# If plaques should show for goal advancements (medium-difficulty advancements).
@@ -76,12 +76,12 @@
 		# Volume of task sounds.  Set to 0 to mute.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		task_volume = 0.25
+		task_volume = 0.2
 		# Volume of goal sounds.  Set to 0 to mute.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		goal_volume = 0.5
+		goal_volume = 0.35
 		# Volume of challenge sounds.  Set to 0 to mute.
 		# Default: 1.0
 		# Range: 0.0 ~ 1.0
-		challenge_volume = 0.5
+		challenge_volume = 0.35

@@ -1,10 +1,4 @@
 ServerEvents.recipes(event => {
-	event.shaped(
-		Item.of("minecraft:bundle",1),
-		["S","L"],
-		{"S":"minecraft:string","L":"minecraft:leather"}
-	).category('equipment').id("kubejs:bundle")
-
 	event.shapeless(
 		Item.of("farmersdelight:rope"),
 		["supplementaries:rope"]

@@ -52,6 +52,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "apothic_spawners": {
+    "spawner": true
+  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true
@@ -73,14 +76,24 @@
     "distance": false,
     "block_face": false,
     "coordinates": false,
-    "registry_name": "OFF",
+    "registry_name": "ADVANCED_TOOLTIPS",
     "block_properties": false,
     "mod_name": true
+  },
+  "apotheosis": {
+    "adventure": true
   },
   "gravestone": {
     "grave": true
   },
+  "item_descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
+  },
   "balm": {
     "jade": true
+  },
+  "apothic_enchanting": {
+    "ench": true
   }
 }

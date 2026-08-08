@@ -10,7 +10,8 @@ function rollDice(player, die, event) {
 		uuid: player.uuid,
 		ticksLeft: 120,
 		name: player.username,
-		color: Color[die.toUpperCase() + "_DYE"].toHexString()
+		color: Color[die.toUpperCase() + "_DYE"].toHexString(),
+		world: event.getLevel().dimension.toString()
 	}
 	event.server.runCommandSilent("execute as "+player.getName().getString()+" run title @s times 0t 1s 0t")
 }
@@ -29,7 +30,8 @@ ServerEvents.tick(event => {
 			event.server.runCommandSilent('execute at '+ obj.uuid +' run playsound minecraft:block.note_block.bell player @a[distance=..20] ~ ~ ~ 0.2')
 			event.server.runCommandSilent('title '+ obj.uuid +' title {"text":"'+ diceText +'"}')
 			event.server.runCommandSilent('execute at '+ obj.uuid +' run tellraw @a[distance=..20] [{"text":"'+ obj.name +' rolled a "},{"text":"'+diceText+'","color":"'+obj.color+'"},{"text":" ('+String(DICE_TEXT.search(diceText)+1)+')"}]')
-			event.server.runCommandSilent('title '+ obj.uuid +' reset')
+			event.server.runCommandSilent('execute as '+obj.uuid+' run title @s reset')
+			event.server.runCommandSilent('title '+ obj.name +' title {"text":"'+ diceText +'","color":"'+ obj.color +'"}')
 		}
 	}
 	// for (const plr in Object.keys(playerDice)) {

@@ -30,7 +30,7 @@
 [inventory_button]
 	#Disable the Muffle button in the player inventory?
 	#Default: false
-	disableInventoryButton = false
+	disableInventoryButton = true
 	#Coordinates for the Muffler button in the player inventory.
 	# You can change this in game by holding the RMB over the button and draging it around
 	#Default: 75

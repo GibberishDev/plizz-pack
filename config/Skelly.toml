@@ -1,0 +1,5 @@
+[main]
+	#defines the chance of the jumscare in the format 1/x default: 5000
+	max__value = 720000.0
+	#Defines the volume of the jumpscare. Default: 1
+	volume = 1.0

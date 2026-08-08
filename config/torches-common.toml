@@ -1,0 +1,8 @@
+[gameplay]
+	#Torch arrows briefly ignite entities on hit (1 fire tick).
+	enableFireDamageTick = true
+
+[visuals]
+	#Emit dynamic light from torch arrows in flight.
+	#Requires a dynamic lights mod (e.g. Sodium Dynamic Lights).
+	enableDynamicLights = true

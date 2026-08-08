@@ -13,10 +13,10 @@
     "windVolume": 0.1
   },
   "wind": {
-    "strength": 0.4,
-    "strengthVariance": 0.3,
-    "gustFrequency": 0.2,
-    "modulationSpeed": 0.04,
+    "strength": 0.0,
+    "strengthVariance": 0.0,
+    "gustFrequency": 0.0,
+    "modulationSpeed": 0.0,
     "yLevelAdjustment": true
   },
   "compat": {

@@ -1,0 +1,28 @@
+{
+  "totalPatsCounter": {
+    "pats": 207
+  },
+  "entities": {
+    "minecraft:skeleton": {
+      "pats": 19
+    },
+    "hybrid_aquatic:beakling": {
+      "pats": 2
+    },
+    "hybrid_aquatic:shell_beast": {
+      "pats": 6
+    },
+    "minecraft:zombie": {
+      "pats": 42
+    },
+    "minecraft:wolf": {
+      "pats": 100
+    },
+    "minecraft:squid": {
+      "pats": 22
+    },
+    "hybrid_aquatic:cepheidae_jellyfish": {
+      "pats": 9
+    }
+  }
+}

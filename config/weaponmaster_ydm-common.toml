@@ -4,7 +4,7 @@
 	# Range: > 0
 	hidetick = 200
 	#Put in the name, x,y,z, x-y-z rotation values and the slot where to apply the changes 1-9, shield, banner, offhand! Separate items with a space character
-	uniqueitems = "name,0,0,0,0,0,0,0,1"
+	uniqueitems = "empty,0,0,0,0,0,0,0,1 supplementaries:flag_orange,0,0,0,0,0,0,2,1"
 	#Whitelists item that are normally not visible
 	whitelist = "empty,totem_of_undying"
 	#Blacklists item that are normally visible
@@ -36,11 +36,11 @@
 	#off hand
 	off_hand = false
 	#quiver
-	quiver = false
+	quiver = true
 	#Body part attachment to a slot
 	attachment = "1-body,2-body,3-rleg,4-lleg,5-rleg,6-lleg,7-body,8-body,9-rleg,shield-body,banner-head,offhand-lleg,quiver-body"
 	#Which active slot and equipment should move the item model away
-	slot_mover = "none,chest;z;+_none,chest,1;z;+_none,legs;x;-_none,legs;x;+_none,legs,3;x;-_none,legs,4;x;+_none,chest,legs,1;z;+_none,shield;z;+_none,legs,3,5;x;-_none;z;-_none;z;-_none,legs,4,6;x;+_none;z;+"
+	slot_mover = "none;y;-_none,chest,1;z;+_none,legs;x;-_none,legs;x;+_none,legs,3;x;-_none,legs,4;x;+_none,chest,legs,1;z;+_none,shield;z;+_none,legs,3,5;x;-_none;z;-_none;z;-_none,legs,4,6;x;+_none;z;+"
 	#Players can hide items with the toggle settings
 	canhideitems = true
 	#Players can change the position and rotation of the displayed items
@@ -71,7 +71,7 @@
 		#z position2
 		# Default: -2
 		# Range: > -2147483648
-		z_position2 = -2
+		z_position2 = 0
 		#x rotation0
 		# Default: 0
 		# Range: > -2147483648
@@ -87,7 +87,7 @@
 		#scale0
 		# Default: 0
 		# Range: > -100
-		scale0 = 0
+		scale0 = 25
 		#Position and rotation settings
 		#x position3
 		# Default: 35
@@ -357,15 +357,15 @@
 		#y position31
 		# Default: 0
 		# Range: > -2147483648
-		y_position31 = 0
+		y_position31 = -33
 		#z position32
 		# Default: 0
 		# Range: > -2147483648
-		z_position32 = 0
+		z_position32 = -16
 		#x rotation30
 		# Default: 0
 		# Range: > -2147483648
-		x_rotation30 = 0
+		x_rotation30 = -18
 		#y rotation31
 		# Default: 0
 		# Range: > -2147483648
