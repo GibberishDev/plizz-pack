@@ -17,7 +17,7 @@ addToRecipeViewers = false
 [hint]
 	# When descriptions on an item are not visible, show a tooltip with the default text 'Show more' and the keybind.
 	# default: false
-	enabled = false
+	enabled = true
 	# Show keybinds in hint text.
 	# default: true
 	show_keybinds = true
@@ -37,7 +37,7 @@ addToRecipeViewers = false
 	colour = 11184810
 	# This setting changes whether block, item, and entity tooltips are italicized.
 	# default: false
-	italics = false
+	italics = true
 	# This setting changes whether block, item, and entity tooltips are bolded.
 	# default: false
 	bold = false
@@ -54,10 +54,10 @@ addToRecipeViewers = false
 [keybinds]
 	# Show descriptions when the Ctrl key is held.
 	# default: true
-	display_when_ctrl_is_held = true
+	display_when_ctrl_is_held = false
 	# Show descriptions when the Shift key is held.
 	# default: false
-	display_when_shift_is_held = false
+	display_when_shift_is_held = true
 	# Show descriptions when the Alt key is held.
 	# default: false
 	display_when_alt_is_held = false
@@ -68,7 +68,7 @@ addToRecipeViewers = false
 [block_descriptions]
 	# This will show Block Descriptions in compatible mods. This can also be disabled in Jade/WTHIT's settings.
 	# default: true
-	enable = true
+	enable = false
 	# Always show Block Descriptions, not just when a key is held.
 	# default: false
 	show_always = false
@@ -84,7 +84,7 @@ addToRecipeViewers = false
 [enchantment_descriptions]
 	# Enable enchantment descriptions.
 	# default: true
-	enable = true
+	enable = false
 	# Always show Enchantment Descriptions, not just when a key is held.
 	# default: false
 	display_always = false

@@ -52,7 +52,7 @@
 		#Days per year
 		# Default: 24
 		# Range: 1 ~ 100
-		daysPerYear = 24
+		daysPerYear = 12
 		#Years per effect level
 		# Default: 6
 		# Range: 1 ~ 100

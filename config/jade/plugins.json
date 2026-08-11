@@ -86,6 +86,9 @@
   "gravestone": {
     "grave": true
   },
+  "exposure_space": {
+    "analyzer": true
+  },
   "item_descriptions": {
     "block_descriptions": true,
     "entity_descriptions": true

@@ -7,13 +7,13 @@ mod_parents = []
 	#Allowed Values: ASCENDING, DESCENDING
 	sorting = "ASCENDING"
 	#Makes list more compacted
-	compact_list = false
+	compact_list = true
 	#Allowed Values: CLASSIC, REPLACE_REALMS, SHRINK, SHRINK_LEFT, ICON
 	mods_button_style = "CLASSIC"
 	#Allowed Values: REPLACE, INSERT, ICON
 	game_menu_button_style = "REPLACE"
 	#Allowed Values: TITLE_SCREEN, MODS_BUTTON, TITLE_SCREEN_AND_MODS_BUTTON, NONE
-	mod_count_location = "TITLE_SCREEN"
+	mod_count_location = "TITLE_SCREEN_AND_MODS_BUTTON"
 	#Shows secret mod count translations defined by modmenu.mods.MOD_COUND.secret
 	easter_eggs = true
 	#Makes java mod have random colors
@@ -37,7 +37,7 @@ mod_parents = []
 
 [hide]
 	#Shows mods with library badge
-	show_libraries = true
+	show_libraries = false
 	#Hides links of the mod
 	hide_mod_links = false
 	#Hides mod's license
@@ -68,8 +68,8 @@ mod_parents = []
 
 [count]
 	#Makes hidden mods count added to the total mods count
-	count_hidden_mods = true
+	count_hidden_mods = false
 	#Makes childrens count get added to the total mods count
-	count_children = true
+	count_children = false
 	#Makes libraries count get added to the total mods count
-	count_libraries = true
+	count_libraries = false
