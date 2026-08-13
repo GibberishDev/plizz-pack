@@ -1,0 +1,16 @@
+{
+    "name": "Trim materials",
+    "icon": "minecraft:amethyst_shard",
+    "category": "patchouli:trimming",
+    "pages": [
+        {
+            "type": "patchouli:trimming/materials",
+			"header":"Trim materials",
+            "top_text": "To use trim templates you must provide a valid trim material. That will set the pattern color"
+        },
+		{
+			"type" : "patchouli:image",
+			"images" : ["kubejs:textures/gui/patchouli/armor_trims_showcase.png"]
+		}
+    ]
+}

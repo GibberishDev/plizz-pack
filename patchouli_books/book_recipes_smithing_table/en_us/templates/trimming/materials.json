@@ -1,0 +1,87 @@
+{
+	"components": [
+		{
+			"type": "patchouli:header",
+			"text": "#header",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "patchouli:text",
+			"text": "#top_text",
+			"x": -1,
+			"y": 10
+		},
+		{
+			"type": "patchouli:separator",
+			"x": -1,
+			"y": 38
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Valid materials:",
+			"x": 30,
+			"y": 42
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:amethyst_shard",
+			"x": 2,
+			"y": 52
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:copper_ingot",
+			"x": 20,
+			"y": 52
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:diamond",
+			"x": 38,
+			"y": 52
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:emerald",
+			"x": 56,
+			"y": 52
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:gold_ingot",
+			"x": 74,
+			"y": 52
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:iron_ingot",
+			"x": 92,
+			"y": 52
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:netherite_ingot",
+			"x": 20,
+			"y": 70
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:quartz",
+			"x": 38,
+			"y": 70
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:redstone",
+			"x": 56,
+			"y": 70
+		},
+		{
+			"type": "patchouli:item",
+			"item":"minecraft:resin_brick",
+			"x": 74,
+			"y": 70
+		}
+	]
+}

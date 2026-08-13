@@ -1,6 +1,6 @@
 # Enable Item Descriptions
 # default: true
-item_descriptions = true
+item_descriptions = false
 # Always show Item Descriptions while hovering over an item in your inventory.
 # default: false
 display_always = false

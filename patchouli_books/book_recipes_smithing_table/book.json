@@ -1,0 +1,9 @@
+{
+    "name": "patchouli_book.recipes.smithing.name",
+    "landing_text": "patchouli_book.recipes.smithing.description",
+    "version": 1,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": true,
+    "show_progress":false,
+    "index_icon":"minecraft:smithing_table"
+}
