@@ -1,0 +1,116 @@
+{
+  "variants": {
+    "facing=north,pose=0": {
+      "model": "kubejs:block/dev_plushie_stand_bronwen",
+      "y": 0
+    },
+    "facing=east,pose=0": {
+      "model": "kubejs:block/dev_plushie_stand_bronwen",
+      "y": 90
+    },
+    "facing=south,pose=0": {
+      "model": "kubejs:block/dev_plushie_stand_bronwen",
+      "y": 180
+    },
+    "facing=west,pose=0": {
+      "model": "kubejs:block/dev_plushie_stand_bronwen",
+      "y": 270
+    },
+    "facing=north,pose=1": {
+      "model": "kubejs:block/dev_plushie_sit_bronwen",
+      "y": 0
+    },
+    "facing=east,pose=1": {
+      "model": "kubejs:block/dev_plushie_sit_bronwen",
+      "y": 90
+    },
+    "facing=south,pose=1": {
+      "model": "kubejs:block/dev_plushie_sit_bronwen",
+      "y": 180
+    },
+    "facing=west,pose=1": {
+      "model": "kubejs:block/dev_plushie_sit_bronwen",
+      "y": 270
+    },
+    "facing=north,pose=2": {
+      "model": "kubejs:block/dev_plushie_relax_bronwen",
+      "y": 0
+    },
+    "facing=east,pose=2": {
+      "model": "kubejs:block/dev_plushie_relax_bronwen",
+      "y": 90
+    },
+    "facing=south,pose=2": {
+      "model": "kubejs:block/dev_plushie_relax_bronwen",
+      "y": 180
+    },
+    "facing=west,pose=2": {
+      "model": "kubejs:block/dev_plushie_relax_bronwen",
+      "y": 270
+    },
+    "facing=north,pose=3": {
+      "model": "kubejs:block/dev_plushie_star_bronwen",
+      "y": 0
+    },
+    "facing=east,pose=3": {
+      "model": "kubejs:block/dev_plushie_star_bronwen",
+      "y": 90
+    },
+    "facing=south,pose=3": {
+      "model": "kubejs:block/dev_plushie_star_bronwen",
+      "y": 180
+    },
+    "facing=west,pose=3": {
+      "model": "kubejs:block/dev_plushie_star_bronwen",
+      "y": 270
+    },
+    "facing=north,pose=4": {
+      "model": "kubejs:block/dev_plushie_dnats_bronwen",
+      "y": 0
+    },
+    "facing=east,pose=4": {
+      "model": "kubejs:block/dev_plushie_dnats_bronwen",
+      "y": 90
+    },
+    "facing=south,pose=4": {
+      "model": "kubejs:block/dev_plushie_dnats_bronwen",
+      "y": 180
+    },
+    "facing=west,pose=4": {
+      "model": "kubejs:block/dev_plushie_dnats_bronwen",
+      "y": 270
+    },
+    "facing=north,pose=5": {
+      "model": "kubejs:block/dev_plushie_yeti_bronwen",
+      "y": 0
+    },
+    "facing=east,pose=5": {
+      "model": "kubejs:block/dev_plushie_yeti_bronwen",
+      "y": 90
+    },
+    "facing=south,pose=5": {
+      "model": "kubejs:block/dev_plushie_yeti_bronwen",
+      "y": 180
+    },
+    "facing=west,pose=5": {
+      "model": "kubejs:block/dev_plushie_yeti_bronwen",
+      "y": 270
+    },
+    "facing=north,pose=6": {
+      "model": "kubejs:block/dev_plushie_zombie_bronwen",
+      "y": 0
+    },
+    "facing=east,pose=6": {
+      "model": "kubejs:block/dev_plushie_zombie_bronwen",
+      "y": 90
+    },
+    "facing=south,pose=6": {
+      "model": "kubejs:block/dev_plushie_zombie_bronwen",
+      "y": 180
+    },
+    "facing=west,pose=6": {
+      "model": "kubejs:block/dev_plushie_zombie_bronwen",
+      "y": 270
+    }
+  }
+}

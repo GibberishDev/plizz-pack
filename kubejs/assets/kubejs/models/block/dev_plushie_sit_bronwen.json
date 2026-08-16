@@ -1,0 +1,9 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent":"kubejs:block/dev_plushie_sit",
+	"textures": {
+		"0": "kubejs:block/bronwen",
+		"particle": "kubejs:block/bronwen"
+	}
+}

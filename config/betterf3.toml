@@ -33,3 +33,9 @@ general = {disable_mod = false, auto_start = false, space_modules = false, shado
 	value_color = 5636095
 	enabled = true
 	lines = {time = false, java_version = false, memory_usage = true, allocation_rate = false, allocated_memory = false, cpu = false, display = false, gpu = false, gpu_utilization = true, opengl_version = false, gpu_driver = false}
+[[modules_right]]
+	name = "target"
+	name_color = 43775
+	value_color = 16777045
+	enabled = true
+	lines = {targeted_block = true, id_block = true, block_states = true, block_tags = true, nothing = true, targeted_fluid = false, id_fluid = false, fluid_states = false, fluid_tags = false, nothing2 = false, targeted_entity = false}

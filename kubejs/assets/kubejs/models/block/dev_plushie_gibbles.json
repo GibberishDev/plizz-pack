@@ -1,0 +1,9 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent":"kubejs:block/dev_plushie",
+	"textures": {
+		"0": "kubejs:block/gibbles",
+		"particle": "kubejs:block/gibbles"
+	}
+}
