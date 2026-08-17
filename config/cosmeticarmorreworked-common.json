@@ -1,5 +1,5 @@
 {
   "CosArmorKeepThroughDeath": false,
   "CosArmorDisableRecipeBook": false,
-  "CosArmorDisableCosHatCommand": false
+  "CosArmorDisableCosHatCommand": true
 }

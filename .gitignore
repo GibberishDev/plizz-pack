@@ -31,3 +31,5 @@ defaultconfigs
 patchouli_data.json
 lightspeed-cache
 fieldguide_cache
+*.bak
+spark-**.tmp
